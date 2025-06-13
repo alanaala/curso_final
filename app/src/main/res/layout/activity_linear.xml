@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.MainActivity">
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/txt_titulo"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="TextSizeCheck" />
+
+    <EditText
+        android:id="@+id/editTextText4"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/txt_hint_edit_telefone_de_contato"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textAlignment="textStart" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/txt_hint_edit_sobrenome"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textAlignment="textStart" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="148dp"
+        android:ems="10"
+        android:hint="@string/txt_hint_edit_primeiro_nome"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textAlignment="textStart" />
+
+    <Button
+        android:id="@+id/finalizar"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="184dp"
+        android:text="@string/txt_button_finalizar"
+        android:textStyle="bold"
+        tools:ignore="VisualLintButtonSize" />
+
+    <Button
+        android:id="@+id/salvar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_button_salvar"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/limpar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_button_limpar"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="340dp"
+        android:layout_height="39dp" />
+</androidx.appcompat.widget.LinearLayoutCompat>
