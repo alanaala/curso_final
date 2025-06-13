@@ -1,5 +1,6 @@
 package com.alana.applistacursos.view;
 
+
 import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.View;
